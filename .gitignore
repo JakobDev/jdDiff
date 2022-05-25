@@ -1,0 +1,12 @@
+__pycache__/
+
+# Qt translations
+*.qm
+
+# setup.py
+build/
+dist/
+jdDiff.egg-info/
+
+# PyCharm
+.idea

@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=jdDiff
+Terminal=false
+Type=Application
+Icon=com.gitlab.JakobDev.jdDiff
+Exec=jddiff
+Comment=A graphical cross platform diff viewer
+Comment[de]=Ein grafisches Programm zum betrachten von Dateiunterschieden
+Categories=Development;Utility;Qt
