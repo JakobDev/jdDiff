@@ -67,6 +67,8 @@ class MainWindow(QMainWindow):
         self.tree_files.addTopLevelItem(self._compare_thread.get_root_item())
         self.action_create_patch_file.setEnabled(True)
 
+        self.statusBar().showMessage(QCoreApplication.translate("MainWindow", "diff finished"), 3000)
+
     def _create_patch_file_clicked(self):
         if not shutil.which("diff"):
             QMessageBox.critical(self, QCoreApplication.translate("MainWindow", "diff not found"), QCoreApplication.translate("MainWindow", "diff was not found. Make sure it is installed and in PATH."))
@@ -89,6 +91,8 @@ class MainWindow(QMainWindow):
 
         with open(path[0], "w", encoding="utf-8") as f:
             f.write(result.stdout)
+
+        self.statusBar().showMessage(QCoreApplication.translate("MainWindow", "{{path}} created").replace("{{path}}", path[0]), 3000)
 
     def _tree_files_item_double_click(self, item):
         self.edit_diff_original.setHtml(item.original_html)

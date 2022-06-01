@@ -154,24 +154,34 @@
 <context>
     <name>MainWindow</name>
     <message>
-        <location filename="../MainWindow.py" line="72"/>
+        <location filename="../MainWindow.py" line="70"/>
+        <source>diff finished</source>
+        <translation>diff fertiggestellt</translation>
+    </message>
+    <message>
+        <location filename="../MainWindow.py" line="74"/>
         <source>diff not found</source>
         <translation>diff nicht gefunden</translation>
     </message>
     <message>
-        <location filename="../MainWindow.py" line="72"/>
+        <location filename="../MainWindow.py" line="74"/>
         <source>diff was not found. Make sure it is installed and in PATH.</source>
         <translation>diff wurde nicht gefunden. Stelle sicher, dass es installiert ist und sich im PATH befindet.</translation>
     </message>
     <message>
-        <location filename="../MainWindow.py" line="87"/>
+        <location filename="../MainWindow.py" line="89"/>
         <source>Error</source>
         <translation>Fehler</translation>
     </message>
     <message>
-        <location filename="../MainWindow.py" line="87"/>
+        <location filename="../MainWindow.py" line="89"/>
         <source>An unknown error occurred</source>
         <translation>Ein unbekannter Fehler ist aufgetreten</translation>
+    </message>
+    <message>
+        <location filename="../MainWindow.py" line="95"/>
+        <source>{{path}} created</source>
+        <translation>{{path}} erstellt</translation>
     </message>
     <message>
         <location filename="../MainWindow.ui" line="0"/>
