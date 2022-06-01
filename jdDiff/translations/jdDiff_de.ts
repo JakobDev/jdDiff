@@ -211,8 +211,23 @@
     </message>
     <message>
         <location filename="../MainWindow.ui" line="0"/>
+        <source>Compare 2 directories</source>
+        <translation>Vergleicht 2 Dateien</translation>
+    </message>
+    <message>
+        <location filename="../MainWindow.ui" line="0"/>
+        <source>Change the Settings</source>
+        <translation>Öffnet das Einstellungsmenü</translation>
+    </message>
+    <message>
+        <location filename="../MainWindow.ui" line="0"/>
         <source>About</source>
         <translation>Über</translation>
+    </message>
+    <message>
+        <location filename="../MainWindow.ui" line="0"/>
+        <source>Shows the about dialog of jdDiff</source>
+        <translation>Zeigt das Überfenster von jdDiff</translation>
     </message>
     <message>
         <location filename="../MainWindow.ui" line="0"/>
@@ -221,8 +236,18 @@
     </message>
     <message>
         <location filename="../MainWindow.ui" line="0"/>
+        <source>Shows the about dialog of Qt</source>
+        <translation>Zeigt das Überfenster von Qt</translation>
+    </message>
+    <message>
+        <location filename="../MainWindow.ui" line="0"/>
         <source>Compare Files</source>
         <translation>Dateien vergleichen</translation>
+    </message>
+    <message>
+        <location filename="../MainWindow.ui" line="0"/>
+        <source>Compare 2 files</source>
+        <translation>Vergleicht 2 Verzeichnisse</translation>
     </message>
     <message>
         <location filename="../MainWindow.ui" line="0"/>
@@ -231,13 +256,28 @@
     </message>
     <message>
         <location filename="../MainWindow.ui" line="0"/>
+        <source>Close the Application</source>
+        <translation>Beendet die Anwendung</translation>
+    </message>
+    <message>
+        <location filename="../MainWindow.ui" line="0"/>
         <source>Reload</source>
         <translation>Neuladen</translation>
     </message>
     <message>
         <location filename="../MainWindow.ui" line="0"/>
+        <source>Rerun the diff</source>
+        <translation>Erstellt den diff neu</translation>
+    </message>
+    <message>
+        <location filename="../MainWindow.ui" line="0"/>
         <source>Create .patch file</source>
         <translation>.patch Datei erstellen</translation>
+    </message>
+    <message>
+        <location filename="../MainWindow.ui" line="0"/>
+        <source>Create a .patch file of the current selected files/directories</source>
+        <translation>Erstellt eine .patch Datei für die aktuell ausgewählten Dateien/Verzeichnisse</translation>
     </message>
 </context>
 <context>

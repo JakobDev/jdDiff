@@ -107,30 +107,48 @@
    <property name="text">
     <string>Compare Directories</string>
    </property>
+   <property name="statusTip">
+    <string>Compare 2 directories</string>
+   </property>
   </action>
   <action name="action_settings">
    <property name="text">
     <string>Settings</string>
+   </property>
+   <property name="statusTip">
+    <string>Change the Settings</string>
    </property>
   </action>
   <action name="action_about">
    <property name="text">
     <string>About</string>
    </property>
+   <property name="statusTip">
+    <string>Shows the about dialog of jdDiff</string>
+   </property>
   </action>
   <action name="action_about_qt">
    <property name="text">
     <string>About Qt</string>
+   </property>
+   <property name="statusTip">
+    <string>Shows the about dialog of Qt</string>
    </property>
   </action>
   <action name="action_compare_file">
    <property name="text">
     <string>Compare Files</string>
    </property>
+   <property name="statusTip">
+    <string>Compare 2 files</string>
+   </property>
   </action>
   <action name="action_exit">
    <property name="text">
     <string>Exit</string>
+   </property>
+   <property name="statusTip">
+    <string>Close the Application</string>
    </property>
   </action>
   <action name="action_reload">
@@ -140,6 +158,9 @@
    <property name="text">
     <string>Reload</string>
    </property>
+   <property name="statusTip">
+    <string>Rerun the diff</string>
+   </property>
   </action>
   <action name="action_create_patch_file">
    <property name="enabled">
@@ -147,6 +168,9 @@
    </property>
    <property name="text">
     <string>Create .patch file</string>
+   </property>
+   <property name="statusTip">
+    <string>Create a .patch file of the current selected files/directories</string>
    </property>
   </action>
  </widget>
