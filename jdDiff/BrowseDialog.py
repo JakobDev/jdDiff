@@ -90,8 +90,8 @@ class BrowseDialog(QDialog):
                     QMessageBox.critical(self, QCoreApplication.translate("BrowseDialog", "Not a Directory"), QCoreApplication.translate("BrowseDialog", "{{path}} is not a Directory").replace("{{path}}", i))
                     return
 
-        self._current_history["original"].append(self.edit_original.currentText())
-        self._current_history["copy"].append(self.edit_copy.currentText())
+        self._current_history["original"].insert(0, self.edit_original.currentText())
+        self._current_history["copy"].insert(0, self.edit_copy.currentText())
         self._save_history()
 
         self._ok = True
