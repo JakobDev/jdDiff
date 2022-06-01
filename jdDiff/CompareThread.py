@@ -108,6 +108,12 @@ class CompareThread(QThread):
     def get_root_item(self) -> CompareTreeItem:
         return self._root_item
 
+    def get_original_path(self) -> str:
+        return self._original_path
+
+    def get_copy_path(self) -> str:
+        return self._copy_path
+
     def run(self):
         self._root_item = CompareTreeItem()
         self._root_item.setText(0, os.path.basename(self._original_path))

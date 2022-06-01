@@ -91,8 +91,15 @@
     <addaction name="action_about"/>
     <addaction name="action_about_qt"/>
    </widget>
+   <widget class="QMenu" name="menuTools">
+    <property name="title">
+     <string>Tools</string>
+    </property>
+    <addaction name="action_create_patch_file"/>
+   </widget>
    <addaction name="menuFile"/>
    <addaction name="menuSettings"/>
+   <addaction name="menuTools"/>
    <addaction name="menu"/>
   </widget>
   <widget class="QStatusBar" name="statusbar"/>
@@ -132,6 +139,14 @@
    </property>
    <property name="text">
     <string>Reload</string>
+   </property>
+  </action>
+  <action name="action_create_patch_file">
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="text">
+    <string>Create .patch file</string>
    </property>
   </action>
  </widget>

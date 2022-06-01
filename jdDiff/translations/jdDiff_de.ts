@@ -154,6 +154,26 @@
 <context>
     <name>MainWindow</name>
     <message>
+        <location filename="../MainWindow.py" line="72"/>
+        <source>diff not found</source>
+        <translation>diff nicht gefunden</translation>
+    </message>
+    <message>
+        <location filename="../MainWindow.py" line="72"/>
+        <source>diff was not found. Make sure it is installed and in PATH.</source>
+        <translation>diff wurde nicht gefunden. Stelle sicher, dass es installiert ist und sich im PATH befindet.</translation>
+    </message>
+    <message>
+        <location filename="../MainWindow.py" line="87"/>
+        <source>Error</source>
+        <translation>Fehler</translation>
+    </message>
+    <message>
+        <location filename="../MainWindow.py" line="87"/>
+        <source>An unknown error occurred</source>
+        <translation>Ein unbekannter Fehler ist aufgetreten</translation>
+    </message>
+    <message>
         <location filename="../MainWindow.ui" line="0"/>
         <source>Path</source>
         <translation>Pfad</translation>
@@ -178,6 +198,11 @@
         <location filename="../MainWindow.ui" line="0"/>
         <source>?</source>
         <translation>?</translation>
+    </message>
+    <message>
+        <location filename="../MainWindow.ui" line="0"/>
+        <source>Tools</source>
+        <translation>Werkzeuge</translation>
     </message>
     <message>
         <location filename="../MainWindow.ui" line="0"/>
@@ -208,6 +233,11 @@
         <location filename="../MainWindow.ui" line="0"/>
         <source>Reload</source>
         <translation>Neuladen</translation>
+    </message>
+    <message>
+        <location filename="../MainWindow.ui" line="0"/>
+        <source>Create .patch file</source>
+        <translation>.patch Datei erstellen</translation>
     </message>
 </context>
 <context>
