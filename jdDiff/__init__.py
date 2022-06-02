@@ -10,6 +10,7 @@ def main():
     app = QApplication(sys.argv)
     env = Enviroment()
 
+    app.setDesktopFileName("com.gitlab.JakobDev.jdDiff")
     app.setApplicationName("jdDiff")
     app.setWindowIcon(env.icon)
 
