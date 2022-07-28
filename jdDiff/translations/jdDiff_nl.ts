@@ -11,7 +11,7 @@
     <message>
         <location filename="../AboutDialog.ui" line="52"/>
         <source>A graphical cross platform diff viewer</source>
-        <translation>Een grafisch, platform-onafhankelijk diff-weergaveprogramma</translation>
+        <translation>Een grafisch, platform-onafhankelijk bestandsverschilprogramma</translation>
     </message>
     <message>
         <location filename="../AboutDialog.ui" line="62"/>
@@ -154,7 +154,7 @@
     <message>
         <location filename="../MainWindow.ui" line="162"/>
         <source>Rerun the diff</source>
-        <translation>Voer de diff opnieuw uit</translation>
+        <translation>Voer de vergelijking opnieuw uit</translation>
     </message>
     <message>
         <location filename="../MainWindow.ui" line="170"/>
