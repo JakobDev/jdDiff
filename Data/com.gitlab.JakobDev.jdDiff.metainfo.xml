@@ -5,6 +5,7 @@
   <name>jdDiff</name>
   <summary>A graphical cross platform diff viewer</summary>
   <summary xml:lang="de">Ein grafisches Programm zum betrachten von Dateiunterschieden</summary>
+  <summary xml:lang="nl">Een grafisch, platform-onafhankelijk bestandsverschilprogramma</summary>
   <developer_name>JakobDev</developer_name>
   <launchable type="desktop-id">com.gitlab.JakobDev.jdDiff.desktop</launchable>
   <metadata_license>CC0-1.0</metadata_license>
@@ -12,6 +13,7 @@
   <description>
     <p>jdDiff shows the difference between two Files or two Directories</p>
     <p xml:lang="de">jdDiff zeigt die Unterschiede zwiscehn 2 Dateien oder 2 Verzeichnissen</p>
+    <p xml:lang="nl">jdDiff toont de verschillen tussen twee bestanden of mappen</p>
   </description>
   <screenshots>
     <screenshot type="default">
