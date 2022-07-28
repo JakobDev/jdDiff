@@ -6,5 +6,5 @@ Icon=com.gitlab.JakobDev.jdDiff
 Exec=jddiff
 Comment=A graphical cross platform diff viewer
 Comment[de]=Ein grafisches Programm zum betrachten von Dateiunterschieden
-Comment[nl]=Een grafisch, platform-onafhankelijk diff-weergaveprogramma
+Comment[nl]=Een grafisch, platform-onafhankelijk bestandsverschilprogramma
 Categories=Development;Utility;Qt
