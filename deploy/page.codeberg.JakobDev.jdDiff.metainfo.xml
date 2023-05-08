@@ -14,10 +14,17 @@
   <screenshots>
     <screenshot type="default">
       <caption>The Mainwindow</caption>
-      <image type="source">https://gitlab.com/JakobDev/jdDiff/-/raw/1.0/Screenshots/MainWindow.png</image>
+      <image type="source">https://codeberg.org/JakobDev/jdDiff/raw/commit/81a016574d20f87ef29b89303cf80e02f86b83d5/screenshots/MainWindow.png</image>
     </screenshot>
   </screenshots>
   <releases>
+    <release version="1.4" date="2023-05-08" type="stable">
+      <description>
+        <ul>
+          <li>Moved to Codeberg</li>
+        </ul>
+      </description>
+    </release>
     <release version="1.3" date="2022-12-05" type="stable">
       <description>
         <ul>
