@@ -3,6 +3,9 @@ __pycache__/
 # Qt translations
 *.qm
 
+# Compiled UI files
+jdDiff/ui_compiled
+
 # setup.py
 build/
 dist/

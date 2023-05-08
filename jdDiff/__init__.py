@@ -7,10 +7,14 @@ import os
 
 
 def main():
+    if not os.path.isdir(os.path.join(os.path.dirname(__file__), "ui_compiled")):
+        print("Could not find compiled ui files. Please run tools/CompileUI.py first.", file=sys.stderr)
+        sys.exit(1)
+
     app = QApplication(sys.argv)
     env = Enviroment()
 
-    app.setDesktopFileName("com.gitlab.JakobDev.jdDiff")
+    app.setDesktopFileName("page.codeberg.JakobDev.jdDiff")
     app.setApplicationName("jdDiff")
     app.setWindowIcon(env.icon)
 

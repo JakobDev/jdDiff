@@ -44,12 +44,13 @@ dynamic = ["version"]
 version = { file = "jdDiff/version.txt" }
 
 [project.urls]
+Translate = "https://translate.codeberg.org/projects/jdDiff"
 Issues = "https://gitlab.com/JakobDev/jdDiff/-/issues"
 Source = "https://gitlab.com/JakobDev/jdDiff"
 Donation = "https://ko-fi.com/jakobdev"
 
-[tool.setuptools.packages.find]
-include = ["jdDiff*"]
+[tool.setuptools.package-dir]
+jdDiff = "jdDiff"
 
-[project.scripts]
+[project.gui-scripts]
 jddiff = "jdDiff:main"

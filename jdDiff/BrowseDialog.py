@@ -1,16 +1,17 @@
 from PyQt6.QtWidgets import QDialog, QFileDialog, QMessageBox
 from .Functions import read_json_file, remove_list_duplicates
+from .ui_compiled.BrowseDialog import Ui_BrowseDialog
 from PyQt6.QtCore import QCoreApplication
 from typing import Optional
-from PyQt6 import uic
 import json
 import os
 
 
-class BrowseDialog(QDialog):
+class BrowseDialog(QDialog, Ui_BrowseDialog):
     def __init__(self, env):
         super().__init__()
-        uic.loadUi(os.path.join(os.path.dirname(__file__), "BrowseDialog.ui"), self)
+
+        self.setupUi(self)
 
         self._env = env
 

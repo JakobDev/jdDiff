@@ -1,6 +1,6 @@
-include jdDiff/*.ui
-include jdDiff/Icon.svg
-include jdDiff/version.txt
 include jdDiff/translations/*.ts
+exclude jdDiff/ui_compiled/*
 include BuildBackend.py
-
+include jdDiff/Icon.svg
+include jdDiff/ui/*
+exclude tools/*

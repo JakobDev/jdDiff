@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=jdDiff
+Terminal=false
+Type=Application
+Icon=page.codeberg.JakobDev.jdDiff
+Exec=jddiff
+Comment=A graphical cross platform diff viewer
+Categories=Development;Utility;Qt

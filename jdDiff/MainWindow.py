@@ -1,20 +1,20 @@
 from PyQt6.QtWidgets import QMainWindow, QApplication, QMessageBox, QFileDialog
+from .ui_compiled.MainWindow import Ui_MainWindow
+from .SettingsDialog import SettingsDialog
 from PyQt6.QtCore import QCoreApplication
 from .CompareThread import CompareThread
 from .BrowseDialog import BrowseDialog
-from .SettingsDialog import SettingsDialog
 from .AboutDialog import AboutDialog
-from PyQt6 import uic
 import subprocess
 import shutil
 import sys
-import os
 
 
-class MainWindow(QMainWindow):
+class MainWindow(QMainWindow, Ui_MainWindow):
     def __init__(self, env):
         super().__init__()
-        uic.loadUi(os.path.join(os.path.dirname(__file__), "MainWindow.ui"), self)
+
+        self.setupUi(self)
 
         self._browse_dialog = BrowseDialog(env)
         self._settings_dialog = SettingsDialog(env)

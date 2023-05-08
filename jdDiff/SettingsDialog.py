@@ -1,15 +1,16 @@
+from .ui_compiled.SettingsDialog import Ui_SettingsDialog
 from PyQt6.QtCore import QCoreApplication, QLocale
 from PyQt6.QtWidgets import QDialog, QColorDialog
 from .Functions import select_combo_box_data
 from .Settings import Settings
-from PyQt6 import uic
 import os
 
 
-class SettingsDialog(QDialog):
+class SettingsDialog(QDialog, Ui_SettingsDialog):
     def __init__(self, env):
         super().__init__()
-        uic.loadUi(os.path.join(os.path.dirname(__file__), "SettingsDialog.ui"), self)
+
+        self.setupUi(self)
 
         self._env = env
 

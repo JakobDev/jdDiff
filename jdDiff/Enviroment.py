@@ -20,13 +20,13 @@ class Enviroment:
 
     def _get_data_path(self) -> str:
         if platform.system() == "Windows":
-            return os.path.join(os.getenv("appdata"), "jdDiff")
+            return os.path.join(os.getenv("appdata"), "JakobDev", "jdDiff")
         elif platform.system() == "Darwin":
-            return os.path.join(str(Path.home()), "Library", "Application Support", "jdDiff")
+            return os.path.join(str(Path.home()), "Library", "Application Support", "JakobDev", "jdDiff")
         elif platform.system() == "Haiku":
-            return os.path.join(str(Path.home()), "config", "settings", "jdDiff")
+            return os.path.join(str(Path.home()), "config", "settings", "JakobDev", "jdDiff")
         else:
             if os.getenv("XDG_DATA_HOME"):
-                return os.path.join(os.getenv("XDG_DATA_HOME"), "jdDiff")
+                return os.path.join(os.getenv("XDG_DATA_HOME"), "JakobDev", "jdDiff")
             else:
-                return os.path.join(str(Path.home()), ".local", "share", "jdDiff")
+                return os.path.join(str(Path.home()), ".local", "share", "JakobDev", "jdDiff")
