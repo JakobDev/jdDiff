@@ -8,23 +8,27 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-05-08 09:56+0200\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2023-12-29 15:59+0000\n"
+"Last-Translator: volkov <d2oo1dle2x@gmail.com>\n"
+"Language-Team: Ukrainian <https://translate.codeberg.org/projects/jdDiff/"
+"UnixMetadata/uk/>\n"
 "Language: uk\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"X-Generator: Weblate 5.3.1\n"
 
 #: deploy/page.codeberg.JakobDev.jdDiff.metainfo.xml:6
 #: deploy/page.codeberg.JakobDev.jdDiff.desktop:8
 msgid "A graphical cross platform diff viewer"
-msgstr ""
+msgstr "Графічний кросс-платформений додаток для перегляду різниці між файлами"
 
 #: deploy/page.codeberg.JakobDev.jdDiff.metainfo.xml:12
 msgid "jdDiff shows the difference between two Files or two Directories"
-msgstr ""
+msgstr "jdDiff показує різницю між двома файлами або двома теками"
 
 #: deploy/page.codeberg.JakobDev.jdDiff.metainfo.xml:16
 msgid "The Mainwindow"
-msgstr ""
+msgstr "Головне вікно"
