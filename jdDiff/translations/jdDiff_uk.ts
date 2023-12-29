@@ -237,7 +237,7 @@
     <message>
         <location filename="../ui/MainWindow.ui" line="0"/>
         <source>Shows the about dialog of jdDiff</source>
-        <translation>Показує діалогове вікно &quot;про додаток&quot; для jdDiff</translation>
+        <translation>Показати діалогове вікно &quot;про додаток&quot; для jdDiff</translation>
     </message>
     <message>
         <location filename="../ui/MainWindow.ui" line="0"/>
@@ -247,7 +247,7 @@
     <message>
         <location filename="../ui/MainWindow.ui" line="0"/>
         <source>Shows the about dialog of Qt</source>
-        <translation>Показує діалогове вікно &quot;про додаток&quot; для Qt</translation>
+        <translation>Показати діалогове вікно &quot;про додаток&quot; для Qt</translation>
     </message>
     <message>
         <location filename="../ui/MainWindow.ui" line="0"/>
@@ -282,12 +282,12 @@
     <message>
         <location filename="../ui/MainWindow.ui" line="0"/>
         <source>Create .patch file</source>
-        <translation>Створити файл .patch</translation>
+        <translation>Створити .patch файл</translation>
     </message>
     <message>
         <location filename="../ui/MainWindow.ui" line="0"/>
         <source>Create a .patch file of the current selected files/directories</source>
-        <translation>Створити .patch файл поточних обраних файлів/тек</translation>
+        <translation>Створить .patch файл поточних обраних файлів/тек</translation>
     </message>
 </context>
 <context>
