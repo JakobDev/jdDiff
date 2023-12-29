@@ -6,27 +6,27 @@
     <message>
         <location filename="../ui/AboutDialog.ui" line="0"/>
         <source>About</source>
-        <translation type="unfinished"></translation>
+        <translation>Про приложение</translation>
     </message>
     <message>
         <location filename="../ui/AboutDialog.ui" line="0"/>
         <source>A graphical cross platform diff viewer</source>
-        <translation type="unfinished"></translation>
+        <translation>Графическое кросс-платформенное приложение для просмотра разницы между файлами</translation>
     </message>
     <message>
         <location filename="../ui/AboutDialog.ui" line="0"/>
         <source>This Program is licensed under GPL 3</source>
-        <translation type="unfinished"></translation>
+        <translation>Эта программа лицензирована под GPL 3</translation>
     </message>
     <message>
         <location filename="../ui/AboutDialog.ui" line="0"/>
         <source>View source</source>
-        <translation type="unfinished"></translation>
+        <translation>Просмотреть исходник</translation>
     </message>
     <message>
         <location filename="../ui/AboutDialog.ui" line="0"/>
         <source>Close</source>
-        <translation type="unfinished"></translation>
+        <translation>Закрыть</translation>
     </message>
 </context>
 <context>
@@ -34,88 +34,88 @@
     <message>
         <location filename="../BrowseDialog.py" line="73"/>
         <source>No Original</source>
-        <translation type="unfinished"></translation>
+        <translation>Нет оригинала</translation>
     </message>
     <message>
         <location filename="../BrowseDialog.py" line="73"/>
         <source>You have not set a Original path</source>
-        <translation type="unfinished"></translation>
+        <translation>Вы не установили путь к оригиналу</translation>
     </message>
     <message>
         <location filename="../BrowseDialog.py" line="76"/>
         <source>No Copy</source>
-        <translation type="unfinished"></translation>
+        <translation>Нет копии</translation>
     </message>
     <message>
         <location filename="../BrowseDialog.py" line="76"/>
         <source>You have not set a Copy path</source>
-        <translation type="unfinished"></translation>
+        <translation>Вы не установили путь к копии</translation>
     </message>
     <message>
         <location filename="../BrowseDialog.py" line="80"/>
         <source>Same Paths</source>
-        <translation type="unfinished"></translation>
+        <translation>Одинаковые пути</translation>
     </message>
     <message>
         <location filename="../BrowseDialog.py" line="80"/>
         <source>Original and Copy have the same Paths</source>
-        <translation type="unfinished"></translation>
+        <translation>Оригинал и копия имеют одинаковые пути</translation>
     </message>
     <message>
         <location filename="../BrowseDialog.py" line="86"/>
         <source>Not a File</source>
-        <translation type="unfinished"></translation>
+        <translation>Не является файлом</translation>
     </message>
     <message>
         <location filename="../BrowseDialog.py" line="86"/>
         <source>{{path}} is not a File</source>
-        <translation type="unfinished"></translation>
+        <translation>{{path}} - не является файлом</translation>
     </message>
     <message>
         <location filename="../BrowseDialog.py" line="91"/>
         <source>Not a Directory</source>
-        <translation type="unfinished"></translation>
+        <translation>Не является папкой</translation>
     </message>
     <message>
         <location filename="../BrowseDialog.py" line="91"/>
         <source>{{path}} is not a Directory</source>
-        <translation type="unfinished"></translation>
+        <translation>{{path}} - не является папкой</translation>
     </message>
     <message>
         <location filename="../BrowseDialog.py" line="102"/>
         <source>Select Files</source>
-        <translation type="unfinished"></translation>
+        <translation>Выбрать файлы</translation>
     </message>
     <message>
         <location filename="../BrowseDialog.py" line="118"/>
         <source>Select Directories</source>
-        <translation type="unfinished"></translation>
+        <translation>Выбрать папки</translation>
     </message>
     <message>
         <location filename="../ui/BrowseDialog.ui" line="0"/>
         <location filename="../ui/BrowseDialog.ui" line="0"/>
         <source>Browse</source>
-        <translation type="unfinished"></translation>
+        <translation>Открыть</translation>
     </message>
     <message>
         <location filename="../ui/BrowseDialog.ui" line="0"/>
         <source>Original:</source>
-        <translation type="unfinished"></translation>
+        <translation>Оригинал:</translation>
     </message>
     <message>
         <location filename="../ui/BrowseDialog.ui" line="0"/>
         <source>Copy:</source>
-        <translation type="unfinished"></translation>
+        <translation>Копия:</translation>
     </message>
     <message>
         <location filename="../ui/BrowseDialog.ui" line="0"/>
         <source>OK</source>
-        <translation type="unfinished"></translation>
+        <translation>Хорошо</translation>
     </message>
     <message>
         <location filename="../ui/BrowseDialog.ui" line="0"/>
         <source>Cancel</source>
-        <translation type="unfinished"></translation>
+        <translation>Отменить</translation>
     </message>
 </context>
 <context>
@@ -124,31 +124,31 @@
         <location filename="../CompareThread.py" line="40"/>
         <location filename="../CompareThread.py" line="39"/>
         <source>Can&apos;t show diff for binary file</source>
-        <translation type="unfinished"></translation>
+        <translation>Невозможно показать разницу для бинарного файла</translation>
     </message>
     <message>
         <location filename="../CompareThread.py" line="99"/>
         <location filename="../CompareThread.py" line="61"/>
         <location filename="../CompareThread.py" line="42"/>
         <source>Same</source>
-        <translation type="unfinished"></translation>
+        <translation>Одинаковый</translation>
     </message>
     <message>
         <location filename="../CompareThread.py" line="95"/>
         <location filename="../CompareThread.py" line="58"/>
         <location filename="../CompareThread.py" line="45"/>
         <source>Modified</source>
-        <translation type="unfinished"></translation>
+        <translation>Модифицированный</translation>
     </message>
     <message>
         <location filename="../CompareThread.py" line="71"/>
         <source>Not in Copy</source>
-        <translation type="unfinished"></translation>
+        <translation>Не в копии</translation>
     </message>
     <message>
         <location filename="../CompareThread.py" line="88"/>
         <source>Not in Original</source>
-        <translation type="unfinished"></translation>
+        <translation>Не в оригинале</translation>
     </message>
 </context>
 <context>
@@ -156,138 +156,138 @@
     <message>
         <location filename="../MainWindow.py" line="70"/>
         <source>diff finished</source>
-        <translation type="unfinished"></translation>
+        <translation>сравнение завершено</translation>
     </message>
     <message>
         <location filename="../MainWindow.py" line="74"/>
         <source>diff not found</source>
-        <translation type="unfinished"></translation>
+        <translation>разницы не найдено</translation>
     </message>
     <message>
         <location filename="../MainWindow.py" line="74"/>
         <source>diff was not found. Make sure it is installed and in PATH.</source>
-        <translation type="unfinished"></translation>
+        <translation>разницы не найдено. Убедитесь, что оно установлено в PATH.</translation>
     </message>
     <message>
         <location filename="../MainWindow.py" line="89"/>
         <source>Error</source>
-        <translation type="unfinished"></translation>
+        <translation>Ошибка</translation>
     </message>
     <message>
         <location filename="../MainWindow.py" line="89"/>
         <source>An unknown error occurred</source>
-        <translation type="unfinished"></translation>
+        <translation>Произошла неизвестная ошибка</translation>
     </message>
     <message>
         <location filename="../MainWindow.py" line="95"/>
         <source>{{path}} created</source>
-        <translation type="unfinished"></translation>
+        <translation>Создано {{path}}</translation>
     </message>
     <message>
         <location filename="../ui/MainWindow.ui" line="0"/>
         <source>Path</source>
-        <translation type="unfinished"></translation>
+        <translation>Путь</translation>
     </message>
     <message>
         <location filename="../ui/MainWindow.ui" line="0"/>
         <source>Status</source>
-        <translation type="unfinished"></translation>
+        <translation>Состояние</translation>
     </message>
     <message>
         <location filename="../ui/MainWindow.ui" line="0"/>
         <source>File</source>
-        <translation type="unfinished"></translation>
+        <translation>Файл</translation>
     </message>
     <message>
         <location filename="../ui/MainWindow.ui" line="0"/>
         <location filename="../ui/MainWindow.ui" line="0"/>
         <source>Settings</source>
-        <translation type="unfinished"></translation>
+        <translation>Настройки</translation>
     </message>
     <message>
         <location filename="../ui/MainWindow.ui" line="0"/>
         <source>?</source>
-        <translation type="unfinished"></translation>
+        <translation>Справка</translation>
     </message>
     <message>
         <location filename="../ui/MainWindow.ui" line="0"/>
         <source>Tools</source>
-        <translation type="unfinished"></translation>
+        <translation>Инструменты</translation>
     </message>
     <message>
         <location filename="../ui/MainWindow.ui" line="0"/>
         <source>Compare Directories</source>
-        <translation type="unfinished"></translation>
+        <translation>Сравнить папки</translation>
     </message>
     <message>
         <location filename="../ui/MainWindow.ui" line="0"/>
         <source>Compare 2 directories</source>
-        <translation type="unfinished"></translation>
+        <translation>Сравнить 2 папки</translation>
     </message>
     <message>
         <location filename="../ui/MainWindow.ui" line="0"/>
         <source>Change the Settings</source>
-        <translation type="unfinished"></translation>
+        <translation>Изменить настройки</translation>
     </message>
     <message>
         <location filename="../ui/MainWindow.ui" line="0"/>
         <source>About</source>
-        <translation type="unfinished"></translation>
+        <translation>Про приложение</translation>
     </message>
     <message>
         <location filename="../ui/MainWindow.ui" line="0"/>
         <source>Shows the about dialog of jdDiff</source>
-        <translation type="unfinished"></translation>
+        <translation>Показывает диалоговое окно &quot;про приложение&quot; для jdDiff</translation>
     </message>
     <message>
         <location filename="../ui/MainWindow.ui" line="0"/>
         <source>About Qt</source>
-        <translation type="unfinished"></translation>
+        <translation>Про Qt</translation>
     </message>
     <message>
         <location filename="../ui/MainWindow.ui" line="0"/>
         <source>Shows the about dialog of Qt</source>
-        <translation type="unfinished"></translation>
+        <translation>Показывает диалоговое окно &quot;про приложение&quot; для Qt</translation>
     </message>
     <message>
         <location filename="../ui/MainWindow.ui" line="0"/>
         <source>Compare Files</source>
-        <translation type="unfinished"></translation>
+        <translation>Сравнить файлы</translation>
     </message>
     <message>
         <location filename="../ui/MainWindow.ui" line="0"/>
         <source>Compare 2 files</source>
-        <translation type="unfinished"></translation>
+        <translation>Сравнить 2 файла</translation>
     </message>
     <message>
         <location filename="../ui/MainWindow.ui" line="0"/>
         <source>Exit</source>
-        <translation type="unfinished"></translation>
+        <translation>Выйти</translation>
     </message>
     <message>
         <location filename="../ui/MainWindow.ui" line="0"/>
         <source>Close the Application</source>
-        <translation type="unfinished"></translation>
+        <translation>Закрыть приложение</translation>
     </message>
     <message>
         <location filename="../ui/MainWindow.ui" line="0"/>
         <source>Reload</source>
-        <translation type="unfinished"></translation>
+        <translation>Перезагрузить</translation>
     </message>
     <message>
         <location filename="../ui/MainWindow.ui" line="0"/>
         <source>Rerun the diff</source>
-        <translation type="unfinished"></translation>
+        <translation>Перезапустить сравнение</translation>
     </message>
     <message>
         <location filename="../ui/MainWindow.ui" line="0"/>
         <source>Create .patch file</source>
-        <translation type="unfinished"></translation>
+        <translation>Создать .patch файл</translation>
     </message>
     <message>
         <location filename="../ui/MainWindow.ui" line="0"/>
         <source>Create a .patch file of the current selected files/directories</source>
-        <translation type="unfinished"></translation>
+        <translation>Создаст .patch файл текущих выбраных файлов/папок</translation>
     </message>
 </context>
 <context>
@@ -295,67 +295,67 @@
     <message>
         <location filename="../SettingsDialog.py" line="17"/>
         <source>System language</source>
-        <translation type="unfinished"></translation>
+        <translation>Системный язык</translation>
     </message>
     <message>
         <location filename="../SettingsDialog.py" line="23"/>
         <source>Alphabetically ascending</source>
-        <translation type="unfinished"></translation>
+        <translation>За алфавитом (по возрастанию)</translation>
     </message>
     <message>
         <location filename="../SettingsDialog.py" line="24"/>
         <source>Alphabetically descending</source>
-        <translation type="unfinished"></translation>
+        <translation>За алфавитом (по убыванию)</translation>
     </message>
     <message>
         <location filename="../SettingsDialog.py" line="25"/>
         <source>Natural ascending</source>
-        <translation type="unfinished"></translation>
+        <translation>Природный (по возрастанию)</translation>
     </message>
     <message>
         <location filename="../SettingsDialog.py" line="26"/>
         <source>Natural descending</source>
-        <translation type="unfinished"></translation>
+        <translation>Природный (по убыванию)</translation>
     </message>
     <message>
         <location filename="../ui/SettingsDialog.ui" line="0"/>
         <source>Settings</source>
-        <translation type="unfinished"></translation>
+        <translation>Настройки</translation>
     </message>
     <message>
         <location filename="../ui/SettingsDialog.ui" line="0"/>
         <source>Language:</source>
-        <translation type="unfinished"></translation>
+        <translation>Язык:</translation>
     </message>
     <message>
         <location filename="../ui/SettingsDialog.ui" line="0"/>
         <source>Addded Color:</source>
-        <translation type="unfinished"></translation>
+        <translation>Цвет добавленной строки:</translation>
     </message>
     <message>
         <location filename="../ui/SettingsDialog.ui" line="0"/>
         <source>Removed Color:</source>
-        <translation type="unfinished"></translation>
+        <translation>Цвет удаленной строки:</translation>
     </message>
     <message>
         <location filename="../ui/SettingsDialog.ui" line="0"/>
         <source>Sorting:</source>
-        <translation type="unfinished"></translation>
+        <translation>Сортировка:</translation>
     </message>
     <message>
         <location filename="../ui/SettingsDialog.ui" line="0"/>
         <source>Reset</source>
-        <translation type="unfinished"></translation>
+        <translation>Сбросить</translation>
     </message>
     <message>
         <location filename="../ui/SettingsDialog.ui" line="0"/>
         <source>OK</source>
-        <translation type="unfinished"></translation>
+        <translation>Хорошо</translation>
     </message>
     <message>
         <location filename="../ui/SettingsDialog.ui" line="0"/>
         <source>Cancel</source>
-        <translation type="unfinished"></translation>
+        <translation>Отменить</translation>
     </message>
 </context>
 </TS>
