@@ -11,7 +11,7 @@
     <message>
         <location filename="../ui/AboutDialog.ui" line="0"/>
         <source>A graphical cross platform diff viewer</source>
-        <translation>Графічний кросс-платформений додаток для перегляду різниці між файлами</translation>
+        <translation>Графічний кросплатформний додаток для перегляду різниці між файлами</translation>
     </message>
     <message>
         <location filename="../ui/AboutDialog.ui" line="0"/>
@@ -148,7 +148,7 @@
     <message>
         <location filename="../CompareThread.py" line="88"/>
         <source>Not in Original</source>
-        <translation>Не у оригіналі</translation>
+        <translation>Не в оригіналі</translation>
     </message>
 </context>
 <context>
@@ -330,12 +330,12 @@
     <message>
         <location filename="../ui/SettingsDialog.ui" line="0"/>
         <source>Addded Color:</source>
-        <translation>Колір доданої строки:</translation>
+        <translation>Колір доданого рядка:</translation>
     </message>
     <message>
         <location filename="../ui/SettingsDialog.ui" line="0"/>
         <source>Removed Color:</source>
-        <translation>Колір видаленої строки:</translation>
+        <translation>Колір видаленого рядка:</translation>
     </message>
     <message>
         <location filename="../ui/SettingsDialog.ui" line="0"/>
@@ -355,7 +355,7 @@
     <message>
         <location filename="../ui/SettingsDialog.ui" line="0"/>
         <source>Cancel</source>
-        <translation>Закрити</translation>
+        <translation>Скасувати</translation>
     </message>
 </context>
 </TS>
